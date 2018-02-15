@@ -10,7 +10,7 @@ class SearchMovie
 
 	def login
 
-		Tmdb::Api.key("b44e295e0832b890b02cde126685315f")
+		Tmdb::Api.key(ENV["MOVIEDBKEY"])
 		Tmdb::Api.language("fr")
 
 	end
