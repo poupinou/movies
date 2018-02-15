@@ -15,7 +15,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'devise'
-gem 'themoviedb-api'
+gem 'themoviedb'
 
 group :development, :test do
   gem 'sqlite3'
