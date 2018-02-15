@@ -1,8 +1,4 @@
 
-
-
-require "dotenv"
-Dotenv.load
 class SearchMovie
 
 	def initialize(movie)
